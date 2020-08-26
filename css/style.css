@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'gotham';
+  src: url("../fonts/GothamMedium.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gotham';
+  src: url('../fonts/gothamlight.otf') format("opentype");
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham';
+  src: url('../fonts/GothamBook.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8de0ff;
+}
+
+a:active {
+  color: white;
+}
+
+
+.flex-container1 {
+  padding: 0;
+  margin: 0;
+  list-style: none;display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.links {
+ background: #fff;
+  padding: 0 20px;
+  width: 20px;
+  height: 10px;
+  margin-top: 40px;
+  font-family: "gotham", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #00aeef;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.textlinks {
+ background: #fff;
+  height: 100%;
+  font-family: "gotham", Arial, sans-serif;
+  font-weight: lighter;
+  color: #00aeef;
+}
+
+.body{
+  height: 100%;
+}
+.flex-container2 {
+  padding: 30px;
+  margin: 0px;
+  min-height: 200px;
+  list-style: none;display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  height: 85vh;
+  font-family: "gotham", Arial, sans-serif;
+}
+
+.about-me {
+ background: #fff;
+  padding: 0 20px;
+  max-width: 500px;
+  max-height: 400px;
+  font-family: "gotham", Arial, sans-serif;
+  color: #828282;
+  line-height: 25px;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+}
+
+.headshot {
+  padding: 0 20px;
+  max-width: 300px;
+  max-height: 300px;
+  display: flex;
+}
